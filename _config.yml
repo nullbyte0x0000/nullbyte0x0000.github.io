@@ -1,13 +1,13 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: bachns
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Nghiên cứu & Chia sẻ
 
 # Your name to show in the footer
-author: Some Person
+author: Nguyễn Sỹ Bách
 
 # --- List of links in the navigation bar --- #
 
@@ -49,10 +49,9 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "bachns.dev@gmail.com"
+  facebook: bachns.dev
+  github: bachns
   rss: true
 #  reddit: yourname
 #  linkedin: daattali
