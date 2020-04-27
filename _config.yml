@@ -13,10 +13,11 @@ author: Nguyễn Sỹ Bách
 
 navbar-links:
   About Me: "aboutme"
+  Tags: "https://bachns.github.io/tags/"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
-  #Author's home: "http://bachns.wordpress.com"
+  #Author's home: "http://bachns.github.io"
 
 # --- Local development options ---
 
