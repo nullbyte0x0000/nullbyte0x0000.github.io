@@ -13,6 +13,7 @@ tags: [Orfeo Toolbox, Remote sensing, Open Source]
 
 <div style="text-align: justify">Orfeo ToolBox (OTB) là một dự án nguồn mở cho xử lý hình ảnh vệ tinh. Được xây dựng từ cộng đồng địa không gian mã nguồn mở. OTB có khả năng xử lý ảnh quang học độ phân giải cao, ảnh đa phổ, ảnh siêu phổ và ảnh radar với dung lượng ảnh rất lớn, cỡ hàng Terabyte (~1000Gb). Một loạt các ứng dụng phổ biến, có sẵn như: nắn chỉnh hình học, trộn ảnh, phân loại có giám sát và không có giám sát, trích xuất đặc trưng, xử lý ảnh SAR…</div>
 
+
 <div style="text-align: justify">OTB hỗ trợ đa nền tảng, trên cả ba nền tảng Windows, Linux và Mac OS. Từ những máy tính xách tay có cấu hình hạn chế đến những máy tính hiệu suất cao đều có thể cài đặt và chạy OTB. Tất cả các thuật toán OTB có thể truy cập từ Monteverdi, QGIS, Python, command-line hoặc C++ API. Trong đó, Monteverdi được cung cấp kèm với các ứng dụng của OTB, đây là một công cụ trực quan dễ sử dụng, được lập trình để khai thác tối đa sức mạnh phần cứng giúp tăng tốc độ kết xuất đồ họa cho ảnh độ phân giải cao. Với Monteverdi, người dùng có được cái nhìn trực quan từ những sản phẩm ảnh thô kích thước lớn và truy cập tất cả các ứng dụng của OTB trong hộp công cụ.</div>
 
 ## Giới thiệu chung
