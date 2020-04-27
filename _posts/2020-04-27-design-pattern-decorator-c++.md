@@ -24,12 +24,110 @@ Trong đó:
 * Monitor, Scanner: là các lớp hiện thực của ComponentDecorator. Việc tính tiền, trang trí cụ thể như thế nào sẽ được thực hiện ở đây
 
 ```cpp
+#include <iostream>
 
+//Interface
+class Computer
+{
+public:
+	virtual ~Computer() = default;
+	virtual std::string description() = 0;
+	virtual int cost() = 0;
+};
+
+//Concrete class
+class Desktop : public Computer
+{
+public:
+	std::string description() override
+	{
+		return "Desktop";
+	}
+	int cost() override
+	{
+		return 1000;
+	}
+};
+
+//Abstract class
+class ComponentDecorator : public Computer
+{
+public:
+	std::string description() override = 0;
+	int cost() override = 0;
+	virtual std::string decoration() = 0;
+};
+
+
+class Monitor : public ComponentDecorator
+{
+public:
+	explicit Monitor(Computer* computer)
+		: mComputer(computer)
+	{
+	}
+	std::string description() override
+	{
+		return mComputer->description() + decoration();
+	}
+	int cost() override
+	{
+		return mComputer->cost() + 150;
+	}
+	std::string decoration() override
+	{
+		return " and a monitor";
+	}
+
+private:
+	Computer* mComputer;
+};
+
+class Scanner : public ComponentDecorator
+{
+public:
+	explicit Scanner(Computer* computer)
+		: mComputer(computer){}
+
+	std::string description() override
+	{
+		return mComputer->description() + decoration();
+	}
+	int cost() override
+	{
+		return mComputer->cost() + 450;
+	}
+	std::string decoration() override
+	{
+		return " and a scanner";
+	}
+	
+private:
+	Computer* mComputer;
+};
+
+int main(int argc, char* argv[])
+{
+	Computer* computer = new Desktop;
+	std::cout << "\nCost: " << computer->cost() << std::endl;
+	std::cout << computer->description() << std::endl;
+
+	computer = new Monitor(computer);
+	std::cout << "\nCost: " << computer->cost() << std::endl;
+	std::cout << computer->description() << std::endl;
+
+	computer = new Scanner(computer);
+	std::cout << "\nCost: " << computer->cost() << std::endl;
+	std::cout << computer->description() << std::endl;
+	
+	delete computer;
+	return 0;
+}
 ```
 
 Kết quả nhận được:
 
-```console
+```shell
 Cost: 1000
 Desktop
  

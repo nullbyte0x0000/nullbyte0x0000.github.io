@@ -4,7 +4,6 @@ title: Mẫu Strategy C++
 subtitle: Tách rời một chức năng ra khỏi đối tượng
 tags: [Design Pattern, Strategy Pattern, C++]
 ---
-
 Mẫu Strategy (mẫu chiến lược) là bạn tách rời phần xử lý một chức năng cụ thể ra khỏi đối tượng của bạn. Sau đó tạo ra một tập hợp các thuật toán để xử lý chức năng đó và lựa chọn thuật toán nào mà bạn thấy đúng đắn nhất khi thực thi chương trình. Strategy sử dụng khi có những tình huống sau:
 
 * Bạn có một đoạn mã dễ thay đổi, và bạn tách chúng ra khỏi chương trình chính để dễ dàng bảo trì.
@@ -13,7 +12,7 @@ Mẫu Strategy (mẫu chiến lược) là bạn tách rời phần xử lý m�
 
 **Ví dụ:** Chúng ta có nhiều loại phương tiện di chuyển StreetRacer, Helicopter, Jet... Mỗi loại trong số chúng lại có một cách di chuyển khác nhau. Hay nói cách khác, mỗi class lại có cách triển khai phương thức go() khác nhau. Do vậy ta sẽ tách phương thức go() này ra, và tạo một họ các cách triển khai cho nó. Khi đó, một lớp nào đó cần go() như thế nào ta sẽ set đúng nó.
 
-+![Strategy Pattern](https://github.com/bachns/bachns.github.io/blob/master/img/strategy-pattern.png?raw=true){: .center-block :}
+![Strategy Pattern](https://github.com/bachns/bachns.github.io/blob/master/img/strategy-pattern.png?raw=true){: .center-block :}
 
 ```cpp
 #include <iostream>
@@ -138,7 +137,7 @@ int main(int argc, char* argv[])
 
 Kết quả nhận được:
 
-```console
+```bat
 Now I'm driving
 Now I'm driving
 Now I'm flying
