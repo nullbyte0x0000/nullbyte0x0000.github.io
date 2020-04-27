@@ -16,7 +16,7 @@ navbar-links:
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://bachns.github.io"
+  #Author's home: "http://bachns.wordpress.com"
 
 # --- Local development options ---
 
@@ -76,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "bachns.github.io"
+url-pretty: "bachns.wordpress.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
