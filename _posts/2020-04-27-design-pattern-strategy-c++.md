@@ -3,6 +3,7 @@ layout: post
 title: Mẫu Strategy C++
 subtitle: Tách rời một chức năng ra khỏi đối tượng
 tags: [Design Pattern, Strategy Pattern, C++]
+categories: [Design Pattern]
 ---
 
 Mẫu Strategy (mẫu chiến lược) là bạn tách rời phần xử lý một chức năng cụ thể ra khỏi đối tượng của bạn. Sau đó tạo ra một tập hợp các thuật toán để xử lý chức năng đó và lựa chọn thuật toán nào mà bạn thấy đúng đắn nhất khi thực thi chương trình. Strategy sử dụng khi có những tình huống sau:

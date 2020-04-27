@@ -3,6 +3,7 @@ layout: post
 title: Giới thiệu bộ công cụ Orfeo Toolbox
 subtitle: Một thư viện nguồn mở xử lý ảnh viễn thám
 tags: [Orfeo Toolbox, Remote sensing, Open Source]
+categories: [Remote Sensing]
 ---
 
 Orfeo ToolBox là một dự án nguồn mở dành cho viễn thám tiên tiến, bao gồm trình xem ảnh nhanh, các ứng dụng xử lý ảnh được truy cập thông qua giao diện của sổ dòng lệnh, Python, QGIS hay các API C++ mạnh mẽ. Bài viết này sẽ trình bày giới thiệu Orfeo ToolBox theo quan viễn thám và công nghệ phần mềm.

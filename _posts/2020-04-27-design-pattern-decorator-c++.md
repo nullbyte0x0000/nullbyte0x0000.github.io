@@ -3,6 +3,7 @@ layout: post
 title: Mẫu Decorator C++
 subtitle: Mở rộng chức năng mà không làm thay đổi lớp cơ sở
 tags: [Design Pattern, Decorator Pattern, C++]
+categories: [Design Pattern]
 ---
 
 Mẫu Decorator (mẫu trang trí) là mẫu được dùng khi bạn muốn mở rộng một chức năng mà không muốn sửa nó ở lớp cơ sở. Yếu quyết của mẫu này là: “Đóng cho việc sửa đổi, mở cho việc mở rộng”. Với mẫu Decorator, các chức năng của lớp cơ sở sẽ được giữ nguyên, không thay đổi. Bạn mở rộng nó bằng cách tạo một lớp Wrapper để bọc lấy nó. Trong Wrapper bạn sẽ gọi chức năng của lớp cơ sở và sau đó thêm vào thứ bạn muốn bổ sung.
