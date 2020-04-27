@@ -13,7 +13,7 @@ author: Nguyễn Sỹ Bách
 
 navbar-links:
   About Me: "aboutme"
-  Tags: "https://bachns.github.io/tags/"
+  Categories: "https://bachns.github.io/tags/"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
