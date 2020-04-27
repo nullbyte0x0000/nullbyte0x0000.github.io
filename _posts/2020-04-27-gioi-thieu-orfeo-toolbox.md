@@ -98,7 +98,7 @@ Một đặc điểm quan trọng nữa trong thiết kế các ứng dụng c�
 * QGIS thông qua plugin Processing
 * Zoo-Project thông qua Web Processing Service.
 
-![Monteverdi](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh5a.png?raw=true) ![Monteverdi](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh5b.png?raw=true)
+![Monteverdi](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh5a.png?raw=true =400x500) ![Monteverdi](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh5b.png?raw=true =400x500)
 
 Dưới đây là ví dụ sử dụng Python để gọi ứng dụng làm mịn ảnh sử dụng giải thuật Mean và giải thuật Gaussian:
 
