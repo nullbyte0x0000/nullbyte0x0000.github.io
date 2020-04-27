@@ -12,7 +12,7 @@ Mẫu Strategy (mẫu chiến lược) là bạn tách rời phần xử lý m�
 
 **Ví dụ:** Chúng ta có nhiều loại phương tiện di chuyển StreetRacer, Helicopter, Jet... Mỗi loại trong số chúng lại có một cách di chuyển khác nhau. Hay nói cách khác, mỗi class lại có cách triển khai phương thức go() khác nhau. Do vậy ta sẽ tách phương thức go() này ra, và tạo một họ các cách triển khai cho nó. Khi đó, một lớp nào đó cần go() như thế nào ta sẽ set đúng nó.
 
-![](img/strategy-pattern.png.jpg "Strategy Pattern")
+![Strategy Pattern](https://github.com/bachns/bachns.github.io/blob/master/img/strategy-pattern.png?raw=true)
 
 ```cpp
 #include <iostream>
@@ -145,3 +145,4 @@ Now I'm driving
 Now I'm flying fast
 Now I'm driving
 ```
+
