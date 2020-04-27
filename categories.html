@@ -5,10 +5,10 @@ title: Categories
 
 <div class="full-categories-list">
     {%- for category in site.categories -%}
-    <h2 id="{{- category -}}">{{- category -}}
+    <h2 id="{{- category[0] -}}">{{- category[0] -}}
     </h2>
     <div class="post-list">
-        {%- for post in site.categories[category] -%}
+        {%- for post in category[1] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title -}}</a>
                 <div class="entry-date">
