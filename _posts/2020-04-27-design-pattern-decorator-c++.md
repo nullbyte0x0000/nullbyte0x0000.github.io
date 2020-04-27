@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mẫu Decorator C++
-subtitle: Mở rộng một chức năng
+subtitle: Mở rộng chức năng mà không làm thay đổi lớp cơ sở
 tags: [Design Pattern, Decorator Pattern, C++]
 ---
 
