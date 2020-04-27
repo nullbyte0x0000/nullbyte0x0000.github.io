@@ -136,7 +136,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-Kết quả chúng ta nhận được:
+Kết quả nhận được:
 
 ```console
 Now I'm driving
@@ -147,4 +147,4 @@ Now I'm flying fast
 Now I'm driving
 ```
 
-Như vậy, chúng ta có thể linh động cài đặt thuật toán phù hợp cho từng loại. Và đặc biệt là có thể thay đổi nó cả khi (runtime) chương trình đang chạy.
+Wow, như vậy chúng ta có thể linh động cài đặt thuật toán phù hợp cho từng class. Và đặc biệt là có thể thay đổi được nó cả khi (runtime) chương trình đang chạy.

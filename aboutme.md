@@ -4,7 +4,7 @@ title: About me
 subtitle: Bạn đang tò mò về tôi?
 ---
 
-Xin chào, tôi là Nguyễn Sỹ Bách, tác giả của blog này. Rất vui vì bạn đã quan tâm đến với hành trình tìm hiểu kiến thức của tôi.
+Xin chào, tôi là Nguyễn Sỹ Bách, tác giả của blog này. Rất vui vì bạn đã quan tâm đến hành trình tìm hiểu kiến thức của tôi.
 
 ### Về blog này
 
