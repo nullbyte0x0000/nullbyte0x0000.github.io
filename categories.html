@@ -3,6 +3,8 @@ layout: page
 title: 'Categories'
 ---
 
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
 <div id="full-tags-list">
     {%- for category in site.categories -%}
     <h2 id="{{- category[0] -}}">{{- category[0] -}}
