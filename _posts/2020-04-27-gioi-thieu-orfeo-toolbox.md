@@ -5,15 +5,15 @@ subtitle: Một thư viện nguồn mở xử lý ảnh viễn thám
 tags: [Orfeo Toolbox, Remote sensing, Open Source]
 ---
 
-Orfeo ToolBox là một dự án nguồn mở dành cho viễn thám tiên tiến, bao gồm trình xem ảnh nhanh, các ứng dụng xử lý ảnh được truy cập thông qua giao diện của sổ dòng lệnh, Python, QGIS hay các API C++ mạnh mẽ. Bài viết này sẽ trình bày giới thiệu Orfeo ToolBox theo quan viễn thám và công nghệ phần mềm.
+<div style="text-align: justify">Orfeo ToolBox là một dự án nguồn mở dành cho viễn thám tiên tiến, bao gồm trình xem ảnh nhanh, các ứng dụng xử lý ảnh được truy cập thông qua giao diện của sổ dòng lệnh, Python, QGIS hay các API C++ mạnh mẽ. Bài viết này sẽ trình bày giới thiệu Orfeo ToolBox theo quan viễn thám và công nghệ phần mềm.</div>
 
 ![Orfeo Toolbox](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh1.png?raw=true){: .center-block :}
 
 ## Mở đầu
 
-Orfeo ToolBox (OTB) là một dự án nguồn mở cho xử lý hình ảnh vệ tinh. Được xây dựng từ cộng đồng địa không gian mã nguồn mở. OTB có khả năng xử lý ảnh quang học độ phân giải cao, ảnh đa phổ, ảnh siêu phổ và ảnh radar với dung lượng ảnh rất lớn, cỡ hàng Terabyte (~1000Gb). Một loạt các ứng dụng phổ biến, có sẵn như: nắn chỉnh hình học, trộn ảnh, phân loại có giám sát và không có giám sát, trích xuất đặc trưng, xử lý ảnh SAR…
+<div style="text-align: justify">Orfeo ToolBox (OTB) là một dự án nguồn mở cho xử lý hình ảnh vệ tinh. Được xây dựng từ cộng đồng địa không gian mã nguồn mở. OTB có khả năng xử lý ảnh quang học độ phân giải cao, ảnh đa phổ, ảnh siêu phổ và ảnh radar với dung lượng ảnh rất lớn, cỡ hàng Terabyte (~1000Gb). Một loạt các ứng dụng phổ biến, có sẵn như: nắn chỉnh hình học, trộn ảnh, phân loại có giám sát và không có giám sát, trích xuất đặc trưng, xử lý ảnh SAR…</div>
 
-OTB hỗ trợ đa nền tảng, trên cả ba nền tảng Windows, Linux và Mac OS. Từ những máy tính xách tay có cấu hình hạn chế đến những máy tính hiệu suất cao đều có thể cài đặt và chạy OTB. Tất cả các thuật toán OTB có thể truy cập từ Monteverdi, QGIS, Python, command-line hoặc C++ API. Trong đó, Monteverdi được cung cấp kèm với các ứng dụng của OTB, đây là một công cụ trực quan dễ sử dụng, được lập trình để khai thác tối đa sức mạnh phần cứng giúp tăng tốc độ kết xuất đồ họa cho ảnh độ phân giải cao. Với Monteverdi, người dùng có được cái nhìn trực quan từ những sản phẩm ảnh thô kích thước lớn và truy cập tất cả các ứng dụng của OTB trong hộp công cụ.
+<div style="text-align: justify">OTB hỗ trợ đa nền tảng, trên cả ba nền tảng Windows, Linux và Mac OS. Từ những máy tính xách tay có cấu hình hạn chế đến những máy tính hiệu suất cao đều có thể cài đặt và chạy OTB. Tất cả các thuật toán OTB có thể truy cập từ Monteverdi, QGIS, Python, command-line hoặc C++ API. Trong đó, Monteverdi được cung cấp kèm với các ứng dụng của OTB, đây là một công cụ trực quan dễ sử dụng, được lập trình để khai thác tối đa sức mạnh phần cứng giúp tăng tốc độ kết xuất đồ họa cho ảnh độ phân giải cao. Với Monteverdi, người dùng có được cái nhìn trực quan từ những sản phẩm ảnh thô kích thước lớn và truy cập tất cả các ứng dụng của OTB trong hộp công cụ.</div>
 
 ## Giới thiệu chung
 
@@ -47,7 +47,6 @@ Các API C++ của OTB sẽ đảm nhận thực thi kỹ thuật ống dẫn. K
 
 Xử lý ảnh viễn thám thường cần đến sự kết hợp của các phương pháp chuyên môn hóa có trong các phần mềm chuyên dụng. Ý tưởng của OTB là cung cấp một giao diện chung kết hợp những thư viện phần mềm chuyên dụng này. Vì thế, OTB sử dụng GDAL để đọc các định dạng dữ liệu cả raster và vector; OSSIM cho các mô hình cảm biến hình học; libSVM, OpenCV và Shark cho học máy; và MuParser để phân tích các biểu thức toán học hiệu suất cao. Bảng 1 dưới đây là danh sách các thư viện nguồn mở được sử dụng trong dự án OTB.
 
-| Thư viện | Địa chỉ | Thư viện | Địa chỉ |
 | ITK | http://www.itk.org | libKML | github.com/google/libkml |
 | GDAL | http://www.gdal.org | libSVM | http://www.csie.ntu.edu.tw/~cjlin |
 | OSSIM | http://www.ossim.org | Mapnik | http://www.mapnik.org |
