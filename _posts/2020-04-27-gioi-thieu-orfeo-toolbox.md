@@ -97,6 +97,8 @@ Một đặc điểm quan trọng nữa trong thiết kế các ứng dụng c�
 * QGIS thông qua plugin Processing
 * Zoo-Project thông qua Web Processing Service.
 
+![QGIS Plugin](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh5.png?raw=true){: .center-block :}
+
 Dưới đây là ví dụ sử dụng Python để gọi ứng dụng làm mịn ảnh sử dụng giải thuật Mean và giải thuật Gaussian:
 
 ```python
