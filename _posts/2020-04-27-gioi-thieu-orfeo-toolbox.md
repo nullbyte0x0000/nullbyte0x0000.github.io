@@ -50,12 +50,12 @@ Kiến trúc phần mềm của OTB được thiết kế để nó không chỉ
 | ITK | http://www.itk.org | libKML | github.com/google/libkml |
 | GDAL | http://www.gdal.org | libSVM | http://www.csie.ntu.edu.tw/~cjlin |
 | OSSIM | http://www.ossim.org | Mapnik | http://www.mapnik.org |
-| libgeotiff | trac.osgeo.org/geotiff | MPI	http://www.open-_mpi.org |
+| libgeotiff | trac.osgeo.org/geotiff | MPI | http://www.open-_mpi.org |
 | boost | http://www.boost.org | MuParser | http://www.muparser.sourceforge.net |
 | openthreads | http://www.openscenegraph.org | MuParserX | muparserx.beltoforion.de |
 | tinyXML | http://www.grinninglizard.com/tinyxml | OpenCV | opencv.org |
 | 6S | 6s.ltdri.org | OPENGL | http://www.opengl.org |
-| Curl | http://www.curl.haxx.se | Qt	http://www.qt.io/developers |
+| Curl | http://www.curl.haxx.se | Qt | http://www.qt.io/developers |
 | FFTW | http://www.fftw.org | QWT | qwt.sourceforge.net |
 | GLEW | glew.sourceforge.net | Shark | image.diku.dk/shark |
 | GLFW | http://www.glfw.org | SiftFast | libsift.sourceforge.net |
