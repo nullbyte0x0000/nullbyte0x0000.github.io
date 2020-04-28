@@ -45,9 +45,11 @@ Một số chế độ phổ biến khác như:
 * Color by Return Number: Thể hiện số lượng tín hiệu phản xạ trở lại từ một tín hiệu phát đi. Cách thể hiện này rất hữu ích khi chúng ta muốn làm rõ thực vật. Vì đối với thực vật sẽ có số lượng tín hiệu phản xạ trả lại nhiều hơn một.
 
 | Color Lidar by RGB/Elev | Color Lidar by Intensity |
-| :-: | :-: |
+| :---------------------: | :----------------------: |
 | ![rgb-mode](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6a.png?raw=true "Color Lidar by RGB/Elev") | ![intensity-mode](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6b.png?raw=true "Color Lidar by Intensity") |
+
 | Color by Classification | Color by Return Number |
+| :---------------------: | :--------------------: |
 | ![classfification-mode](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6c.png?raw=true "Color by Classification") | ![returnnumber-modes](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6d.png?raw=true "Color by Return Number") |
 
 Hiển thị theo dữ liệu độ cao sẽ được Global Mapper thể hiện mặc định bằng màu sắc theo dải màu Atlas, từ màu xanh nước biển đến màu đỏ. Để quan sát tập đám mây điểm này bằng màu tự nhiên, chúng ta sẽ sử dụng thêm một ảnh tại cùng khu vực và tiến hành phủ màu cho chúng. Ta thực hiện mở hình ảnh tại cùng khu vực, tại Lidar Toolbar chọn Lidar Draw Mode là Color Lidar by RGB/Elev và chọn  Apply Color to Lidar Points. Ta có thể chọn chế độ hiển thị 3D để quan sát kết quả.
@@ -60,17 +62,27 @@ Hiển thị theo dữ liệu độ cao sẽ được Global Mapper thể hiện
 
 Dữ liệu thực nghiệm là một khu vực thuộc thủ đô Wellington của New Zealand, thu thập năm 2013. Có tạo độ địa lý Đông Bắc – Tây Nam là (41°03’00″S, 175°18’47″E) – (41°05’00″S, 175°21’34”). Dữ liệu này có đến 98,882,697 điểm rời rạc và được phân thành nhiều loại khác nhau. Tuy nhiên, để thành lập mô hình số độ cao (DEM), ta chỉ quan tâm đến các điểm nằm trên mặt đất và lọc bỏ đi các loại điểm khác. Ta sử dụng công cụ  Lidar Filter Setting để thực hiện công việc này, trong hội thoại Lidar Filter Setting chọn bỏ tất cả các loại điểm không cần thiết và chỉ giữ lại loại điểm Ground. Ngoài ra, cũng có thể thực hiện việc lọc bỏ này ngay khi mở dữ liệu.
 
-![lidar-filter](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh8a.png?raw=true "Tùy chọn lọc")
-
 Thực hiện tạo DEM bằng công cụ  Create Elevation Grid trên thanh Analysis Toolbar, hộp thoại Elevation Grid Creation Options sẽ xuất hiện để người sử dụng tùy chỉnh, với dữ liệu LiDAR hộp thoại này có bổ sung thêm hai tùy chọn là Grid Method và Grid Type để tùy chọn các phương pháp tạo DEM như: Triangulation, Minimum Value, Average Value and Maximum Value... Thông thường, phương pháp mặc định và cũng được sử dụng nhiều nhất là Triangulation – phương pháp lưới tam giác; với Vertical Units ta chọn đơn vị METERS. Thời gian tạo mô hình số độ cao bằng dữ liệu LiDAR phụ thuộc chủ yếu vào mức độ chi tiết của đám mây điểm. Sau khi hoàn thành, DEM mặc định cũng được thể hiện bằng dải màu Atlas, nếu muốn phủ màu tự nhiên ta phải lựa chọn ảnh phủ ở chế độ Texture Map.
 
-![grid-creation](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh8b.png?raw=true "Tùy chọn tạo DEM")
+| ![lidar-filter](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh8a.png?raw=true "Tùy chọn lọc") | ![grid-creation](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh8b.png?raw=true "Tùy chọn tạo DEM") |
 
 Ta cũng có thể nội suy đường bình độ từ dữ liệu DEM, bằng việc sử dụng công cụ  Create Contours, nó phép người sử dụng tạo ra dữ liệu vector các đường bình độ, với nhiều tùy chọn như: khoảng cao đều, đường bình độ con, bình độ cái...
 
 | Mô hình số độ cao | Đường bình độ |
 | :---------------: | :-----------: |
-| ![DEM](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh9a.png?raw=true "Mô hình số độ cao") | ![contour](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh9b.png?raw=true "Đường bình độ")
+| ![DEM](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh9a.png?raw=true "Mô hình số độ cao") | ![contours](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh9b.png?raw=true "Đường bình độ")
+
+Đánh giá độ chính xác thành lập DEM bằng công nghệ LiDAR, chúng ta có thể thực hiện mặt cắt theo tuyến. Hình dưới biểu diễn 3 mặt cắt dọc của DEM thành lập bằng 3 phương pháp: từ bản đồ địa hình (DEM1), bằng số đo trực tiếp (DEM2), bằng LiDAR (LSDEM) và mô hình số bề mặt từ LiDAR (LSDSM).
+
+| Địa hình độ dốc lớn | Mặt cắt dọc  |
+| :-----------------: | :----------: |
+| ![real1](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10a1.png?raw=true "Địa hình độ dốc lớn") | ![section1](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10a2.png?raw=true "Mặt cắt dọc") |
+
+| Địa hình độ dốc vừa | Mặt cắt dọc  |
+| :-----------------: | :----------: |
+| ![real2](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10b1.png?raw=true "Địa hình độ dốc vừa") | ![section2](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10b2.png?raw=true "Mặt cắt dọc") |
+
+Tại địa hình có độ dốc lớn, sự chênh lệch giữa LSDEM với DEM2 có thể thấy khoảng 1~2m, và so với DEM1 là gần như nhau; trên địa hình có dốc vừa, sự chênh lệch giữa LSDEM với DEM2 giảm xuống còn khoảng 1m trên toàn khu vực, và so với DEM1 thì LSDEM thể hiện chính xác hơn. Từ kết quả so sánh trên ta thấy độ chính xác của DEM sử dụng công nghệ LiDAR chịu ảnh hưởng của độ dốc địa hình và tốt hơn so với DEM sử dụng bản đồ địa hình trên hầu hết các bề mặt địa hình.
 
 ## Kết luận
 LiDAR là nguồn dữ liệu không gian có độ chính xác cao, việc thu thập và xử lý được thực hiện một cách nhanh chóng. Các quy trình xử lý dữ liệu LiDAR thường ít phụ thuộc vào con người, không giống như các phương pháp đo đạc trực tiếp, đo ảnh, GPS... Vì vậy, LiDAR ngày càng được sử dụng rộng rãi và ứng dụng phổ biến. Với module Lidar có trên phần mềm Global Mapper, việc đọc và hiểu thị dữ liệu LiDAR đã không còn là trở ngại, module này cũng giải quyết trọn vẹn hầu hết các bài toán liên quan đến phân tích dữ liệu 3D, phục vụ công tác khảo sát, thiết kế, điều tra cơ bản.
