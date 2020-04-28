@@ -6,7 +6,7 @@ tags: [Remote sensing, Lidar, Global Mapper]
 categories: [Remote Sensing]
 ---
 
-Với sự phát triển và mức độ phổ biến của dữ liệu LiDAR ngày càng tăng, nhiều công ty phần mềm trong ngành địa không gian đã phát triển và cung cấp các công cụ để xử lý và khai thác loại dữ liệu này. Bài viết này giới thiệu một số tính năng chính của module Lidar của phần mềm Global Mapper và tạo mô hình số địa hình và đường bình độ từ dữ liệu LiDAR.
+Với sự phát triển và mức độ phổ biến của dữ liệu LiDAR ngày càng tăng, nhiều công ty phần mềm trong ngành địa không gian đã phát triển và cung cấp các công cụ để xử lý và khai thác loại dữ liệu này. Bài viết này giới thiệu một số tính năng chính của module Lidar trong Global Mapper để hiển thị, tạo mô hình số độ cao và đường bình độ.
 
 ## Tổng quan về LiDAR
 LiDAR – Light Detection And Ranging, là công nghệ viễn thám chủ động, hoạt động dựa trên việc phát ra các tia sáng mạnh, tập trung và đo thời gian phản xạ trở lại cảm biến. Thông tin này được sử dụng để xác định các vùng, hoặc khoảng cách đến đối tượng. Bằng cách này LiDAR tương tự như radar, ngoại trừ việc sử dụng xung của ánh sáng laser, trong khi radar lại sử dụng sóng vô tuyến. Tập tọa độ điểm trong không gian ba chiều (ví dụ: x, y, z hoặc kinh, vĩ độ và độ cao) của các đối tượng đích được tính từ: khoảng thời gian khác nhau giữa xung laser phát ra và trả về; góc mà tại đó xung đã được phát ra; và vị trí tuyệt đối của cảm biến.
