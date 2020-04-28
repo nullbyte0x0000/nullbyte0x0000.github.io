@@ -14,7 +14,7 @@ author: Nguyễn Sỹ Bách
 navbar-links:
   About Me: "aboutme"
   Categories: "https://bachns.github.io/categories/"
-  Tags: "https://bachns.github.io/tags/"
+  Tag Index: "https://bachns.github.io/tags/"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
