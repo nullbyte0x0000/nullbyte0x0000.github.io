@@ -17,8 +17,7 @@ LiDAR thường được thu thập từ các thiết bị bay hoặc máy bay, 
 
 Thiết bị LiDAR có thể nhanh chóng đo bề mặt trái đất, ở tốc độ lấy mẫu hơn 150 kilohertz (tức 150.000 xung/giây). Sản phẩm kết quả là một mạng lưới có mật độ dày đặc, được định vị chính xác cao về độ cao – được gọi là đám mây điểm. Các hệ thống LiDAR có thể được sử dụng ở các khu vực ven biển có nước tương đối trong suốt để đo độ cao đáy.
 
-![point-cloud1](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh2a.png?raw=true "Đám mây điểm thu thập từ công nghệ LiDAR"){: .center-block :}
-![point-cloud2](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh2b.png?raw=true "Đám mây điểm thu thập từ công nghệ LiDAR"){: .center-block :}
+| ![point-cloud1](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh2a.png?raw=true "Đám mây điểm thu thập từ công nghệ LiDAR"){: .center-block :} | ![point-cloud2](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh2b.png?raw=true "Đám mây điểm thu thập từ công nghệ LiDAR"){: .center-block :} |
 
 Khả năng xác định bề mặt địa hình ngay cả khi có cây cối che phủ luôn là một mục tiêu trong viễn thám khi thu thập dữ liệu độ cao từ phía trên bề mặt Trái Đất. Hầu hết các bộ dữ liệu có độ cao, được tạo ra bằng cách sử dụng các công nghệ viễn thám thường không thể xâm nhập qua thực vật, LiDAR cũng không ngoại lệ; tuy nhiên, thường có đủ tập “điểm riêng” trên mặt đất mà LiDAR có thể nhìn thấy thông qua các lỗ hổng hoặc vùng trống trong tán thực vật. Trong điều kiện rừng rậm hoặc các khu vực thực vật có độ che phủ dày đặc thường có ít lỗ hổng và do đó số lượng điểm thu thập nằm trên mặt đất thấp  (nghĩa là tất cả các điểm đều rơi trên cây cối và thảm thực vật giữa tán lá). Vì lý do này, thu thập dữ liệu trong khu vực cây ít lá, tán thực vật thưa là thuận lợi cho việc tính toán bề mặt địa hình ở các khu vực có rừng.
 
@@ -46,6 +45,7 @@ Một số chế độ phổ biến khác như:
 * Color by Return Number: Thể hiện số lượng tín hiệu phản xạ trở lại từ một tín hiệu phát đi. Cách thể hiện này rất hữu ích khi chúng ta muốn làm rõ thực vật. Vì đối với thực vật sẽ có số lượng tín hiệu phản xạ trả lại nhiều hơn một.
 
 | Color Lidar by RGB/Elev | Color Lidar by Intensity |
+| :---------------------: | :----------------------: |
 | ![rgb-mode](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6a.png?raw=true "Color Lidar by RGB/Elev") | ![intensity-mode](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6b.png?raw=true "Color Lidar by Intensity") |
 | Color by Classification | Color by Return Number |
 | ![classfification-mode](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6c.png?raw=true "Color by Classification") | ![returnnumber-modes](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh6d.png?raw=true "Color by Return Number") |
@@ -53,6 +53,7 @@ Một số chế độ phổ biến khác như:
 Hiển thị theo dữ liệu độ cao sẽ được Global Mapper thể hiện mặc định bằng màu sắc theo dải màu Atlas, từ màu xanh nước biển đến màu đỏ. Để quan sát tập đám mây điểm này bằng màu tự nhiên, chúng ta sẽ sử dụng thêm một ảnh tại cùng khu vực và tiến hành phủ màu cho chúng. Ta thực hiện mở hình ảnh tại cùng khu vực, tại Lidar Toolbar chọn Lidar Draw Mode là Color Lidar by RGB/Elev và chọn  Apply Color to Lidar Points. Ta có thể chọn chế độ hiển thị 3D để quan sát kết quả.
 
 | Khi chưa phủ ảnh | Sau khi phủ ảnh |
+| :--------------: | :-------------: |
 | ![befor-apply-color](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh7a.png?raw=true "Khi chưa phủ ảnh") | ![after-apply-color](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh7b.png?raw=true "Sau khi phủ ảnh") |
 
 ## Thành lập mô hình số độ cao từ dữ liệu LiDAR
@@ -68,6 +69,7 @@ Thực hiện tạo DEM bằng công cụ  Create Elevation Grid trên thanh Ana
 Ta cũng có thể nội suy đường bình độ từ dữ liệu DEM, bằng việc sử dụng công cụ  Create Contours, nó phép người sử dụng tạo ra dữ liệu vector các đường bình độ, với nhiều tùy chọn như: khoảng cao đều, đường bình độ con, bình độ cái...
 
 | Mô hình số độ cao | Đường bình độ |
+| :---------------: | :-----------: |
 | ![DEM](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh9a.png?raw=true "Mô hình số độ cao") | ![contour](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh9b.png?raw=true "Đường bình độ")
 
 ## Kết luận
