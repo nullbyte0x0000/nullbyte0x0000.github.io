@@ -54,7 +54,7 @@ public:
 	}
 };
 
-//------------
+//Abstract class
 class Vehicle
 {
 public:
@@ -110,29 +110,22 @@ public:
 
 int main(int argc, char* argv[])
 {
-	StreetRacer* streetRacer = new StreetRacer;
-	streetRacer->go();
-	delete streetRacer;
+	Vehicle* vehicle = new StreetRacer;
+	vehicle->go();
 	
-	FormulaOne* formulaOne = new FormulaOne;
-	formulaOne->go();
-	delete formulaOne;
+	vehicle = new FormulaOne;
+	vehicle->go();
 	
-	Helicopter* helicopter = new Helicopter;
-	helicopter->go();
-	delete helicopter;
+	vehicle = new Helicopter;
+	vehicle->go();
 	
-	Jet* jet = new Jet;
-	jet->setGoAlgorithm(new GoByDriving);
-	jet->go();
-
-	jet->setGoAlgorithm(new GoByFlyingFast);
-	jet->go();
-
-	jet->setGoAlgorithm(new GoByDriving);
-	jet->go();
+	std::cout << std::endl;
+	vehicle = new Jet;
+	vehicle->go();
+	vehicle->setGoAlgorithm(new GoByDriving);
+	vehicle->go();
 	
-	delete jet;
+	delete vehicle;
 	return 0;
 }
 ```
@@ -143,7 +136,7 @@ Kết quả nhận được:
 Now I'm driving
 Now I'm driving
 Now I'm flying
-Now I'm driving
+
 Now I'm flying fast
 Now I'm driving
 ```
