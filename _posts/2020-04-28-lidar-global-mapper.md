@@ -77,7 +77,6 @@ Ta cũng có thể nội suy đường bình độ từ dữ liệu DEM, bằng 
 | Địa hình độ dốc lớn | Mặt cắt dọc  |
 | :-----------------: | :----------: |
 | ![real1](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10a1.png?raw=true "Địa hình độ dốc lớn") | ![section1](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10a2.png?raw=true "Mặt cắt dọc") |
-
 | Địa hình độ dốc vừa | Mặt cắt dọc  |
 | :-----------------: | :----------: |
 | ![real2](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10b1.png?raw=true "Địa hình độ dốc vừa") | ![section2](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_28/Hinh10b2.png?raw=true "Mặt cắt dọc") |
