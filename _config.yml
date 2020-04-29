@@ -136,14 +136,14 @@ footer-link-col: "#404040"
 
 # To use Staticman comments, fill in "repository", "branch", and "endpoint"
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository : bachns/bachns.github.io
   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+  endpoint   : https://bachns-bot.herokuapp.com/v2/entry/bachns/bachns.github.io/master/comments
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+    siteKey  : 6Lck-e8UAAAAALQqFf7BPi6sTPenhHf8CPLGkOX4
+    secret   : JtsF78p3zCOUggld9WHcOmS+G2mROJVzVm0oCj9Z3ZD3Ix5H+a83Q38ObWGlnyji2yG3CCL6ASOiY0RvbbJrIsux5hlkRCVZWqXyqEKGCUM7fMj0sCg9DbYQ/SEjEhnGvUDL01DPhYKPFQl2tu+IoOXKUWaNqlldmp10GPS4mAlmFZXLPrn9TBeWAKVcq4+V+2XtHVDEIzAqhot41YWKLOGnaFBwrfJE3+9OWiNpoOmhMFa9NWlpxrrIjEsCRhDejTifnD6x5J6JjCPmXsY0cr8MEtbQAjL3UrQpHFHSJ/AaBalB+7jZoVKOWpKBetfWrS536Wq6QShvoJiHUkUEcZkrr8SbvD90Trw4k+TaQLLJ/s0nPripr6rc8vYu+0cvRN5BKO2EqVP3QNLpgt9srFYMQv+CZarjstf+b9NEFWlDVoFg/eazfwsDQUYxuWF4XRmvh6KG43zFrYcIetysw+dZZ6TSxGBuQHW2naHhjplX/T9jc6KEIKXNtiJ4Ctgx349UznznuavUxRviQdrHTALk95rEXz7gtj+ostvxZvfS1yH/HeW1ju0HJWlS13ml97VWLRtYL/4hMTLe6ryU7JwYWWRuFTe31EPRHO95AHy33fsHd/xjDZcigPuZw3DAHA8JjDJZ8f/D61Epzg6d6KcGG4bOwh4JZzQD2zuZgfE=
 
 # To use Utterances comments: (1) fill in "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
