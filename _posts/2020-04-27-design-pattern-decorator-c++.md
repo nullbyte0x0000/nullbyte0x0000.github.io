@@ -110,15 +110,15 @@ private:
 int main(int argc, char* argv[])
 {
 	Computer* computer = new Desktop;
-	std::cout << "\nCost: " << computer->cost() << std::endl;
+	std::cout << "Cost: " << computer->cost() << std::endl;
 	std::cout << computer->description() << std::endl;
 
 	computer = new Monitor(computer);
-	std::cout << "\nCost: " << computer->cost() << std::endl;
+	std::cout << "Cost: " << computer->cost() << std::endl;
 	std::cout << computer->description() << std::endl;
 
 	computer = new Scanner(computer);
-	std::cout << "\nCost: " << computer->cost() << std::endl;
+	std::cout << "Cost: " << computer->cost() << std::endl;
 	std::cout << computer->description() << std::endl;
 	
 	delete computer;
@@ -131,10 +131,8 @@ Kết quả nhận được:
 ```console
 Cost: 1000
 Desktop
- 
 Cost: 1150
 Desktop and a monitor
- 
 Cost: 1600
 Desktop and a monitor and a scanner
 ```
