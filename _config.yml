@@ -138,8 +138,9 @@ footer-link-col: "#404040"
 staticman:
   repository : bachns/bachns.github.io
   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : https://bachns-bot.herokuapp.com/v2/entry/bachns/bachns.github.io
+  endpoint   : https://bachns-bot.herokuapp.com/v2/entry/bachns/bachns.github.io/master/
   reCaptcha:
+    # herokuapp.com/v3/entry/github
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
     siteKey  : #6Lck-e8UAAAAALQqFf7BPi6sTPenhHf8CPLGkOX4
