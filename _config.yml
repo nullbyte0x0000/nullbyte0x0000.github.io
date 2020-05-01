@@ -147,8 +147,8 @@ staticman:
     # If you use reCaptcha, you must also set these parameters in staticman.yml
     #siteKey  : # Use your own site key, you need to apply for one on Google
     #secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
-    siteKey  : 6Lck-e8UAAAAALQqFf7BPi6sTPenhHf8CPLGkOX4
-    secret   : JtsF78p3zCOUggld9WHcOmS+G2mROJVzVm0oCj9Z3ZD3Ix5H+a83Q38ObWGlnyji2yG3CCL6ASOiY0RvbbJrIsux5hlkRCVZWqXyqEKGCUM7fMj0sCg9DbYQ/SEjEhnGvUDL01DPhYKPFQl2tu+IoOXKUWaNqlldmp10GPS4mAlmFZXLPrn9TBeWAKVcq4+V+2XtHVDEIzAqhot41YWKLOGnaFBwrfJE3+9OWiNpoOmhMFa9NWlpxrrIjEsCRhDejTifnD6x5J6JjCPmXsY0cr8MEtbQAjL3UrQpHFHSJ/AaBalB+7jZoVKOWpKBetfWrS536Wq6QShvoJiHUkUEcZkrr8SbvD90Trw4k+TaQLLJ/s0nPripr6rc8vYu+0cvRN5BKO2EqVP3QNLpgt9srFYMQv+CZarjstf+b9NEFWlDVoFg/eazfwsDQUYxuWF4XRmvh6KG43zFrYcIetysw+dZZ6TSxGBuQHW2naHhjplX/T9jc6KEIKXNtiJ4Ctgx349UznznuavUxRviQdrHTALk95rEXz7gtj+ostvxZvfS1yH/HeW1ju0HJWlS13ml97VWLRtYL/4hMTLe6ryU7JwYWWRuFTe31EPRHO95AHy33fsHd/xjDZcigPuZw3DAHA8JjDJZ8f/D61Epzg6d6KcGG4bOwh4JZzQD2zuZgfE=
+    siteKey  : 6Lec1fAUAAAAAIbfeiuGJ7N3Toavzrb2HpWZpmvS
+    secret   : Dv8hygbr522scSqC/8nHqCEaHWR/1XHPFhVs4KrxolkwG+iMbaOhDg3rAt7NP2UMELB3kB/2A2HXJU2SnFGzAulEOTHuDBI+4FiLj2yBQjbDY86xD0Y7XxOJ2713EDyejwEpIsVWqbwefmgWuCyc3dQkuQ+nQVWDfowBcEZQ1JSpXGODgIUV1ZrrhpgBw9emJRyNqnRXxXNEjRbnnbxe1By/q7ynoZ1G6BT+5X8/lTJEvqopz0q4UADylujTofa2E5l/ZrMiQ5mimPl57RgSjrWiF1c5fRhrJnYm+w7s6HaOZcZ6hupSoHNbvaJS6vvBDmvSkdhB0mYDm6hlD/w0GPuDY665aZt+Idd2x8zEjpVjUAdXwJwUvdI6a+fxKm7Strn9mg+zMIc03fDNo5JTZRMkTM92DEPAeUDGAWQnrDmwpPSOHkH1BF7E2DJHAkic2R7HoXDK/KThSrxk+9VT40oV+WKfiqvHj6wWI8QJw1IOTQPLiYmYIodi6zJRoY5cizdfM/SMTnK6kkt7hke0qD+Ufza0e+Bqazdadq8ov5KjbRVL9CoxT00uMotixJb5gdRKJxg55H01B5upai5/WvwiFx8QN3AT2ukzSiMilomZzoCjqrdB7s/Ff0Y2Anq6QTgAufgvul/u3QRxDeD26IcT51+Ces0X4djka+n6bj8=
 # To use Utterances comments: (1) fill in "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
