@@ -103,8 +103,8 @@ comments:
   # 3. Uncomment `siteKey` and `secret` and fill them in with your values
   reCaptcha:
     enabled  : true
-    siteKey  : 6Lec1fAUAAAAAIbfeiuGJ7N3Toavzrb2HpWZpmvS
-    secret   : Dv8hygbr522scSqC/8nHqCEaHWR/1XHPFhVs4KrxolkwG+iMbaOhDg3rAt7NP2UMELB3kB/2A2HXJU2SnFGzAulEOTHuDBI+4FiLj2yBQjbDY86xD0Y7XxOJ2713EDyejwEpIsVWqbwefmgWuCyc3dQkuQ+nQVWDfowBcEZQ1JSpXGODgIUV1ZrrhpgBw9emJRyNqnRXxXNEjRbnnbxe1By/q7ynoZ1G6BT+5X8/lTJEvqopz0q4UADylujTofa2E5l/ZrMiQ5mimPl57RgSjrWiF1c5fRhrJnYm+w7s6HaOZcZ6hupSoHNbvaJS6vvBDmvSkdhB0mYDm6hlD/w0GPuDY665aZt+Idd2x8zEjpVjUAdXwJwUvdI6a+fxKm7Strn9mg+zMIc03fDNo5JTZRMkTM92DEPAeUDGAWQnrDmwpPSOHkH1BF7E2DJHAkic2R7HoXDK/KThSrxk+9VT40oV+WKfiqvHj6wWI8QJw1IOTQPLiYmYIodi6zJRoY5cizdfM/SMTnK6kkt7hke0qD+Ufza0e+Bqazdadq8ov5KjbRVL9CoxT00uMotixJb5gdRKJxg55H01B5upai5/WvwiFx8QN3AT2ukzSiMilomZzoCjqrdB7s/Ff0Y2Anq6QTgAufgvul/u3QRxDeD26IcT51+Ces0X4djka+n6bj8=
+    siteKey  : 6Lfd2PAUAAAAAD8LNV0MkCLG1Pyug29NaZsKCnmk
+    secret   : Ye6uhQCaHI9l+5lpgjaI7qjxpzn4lE3DFVL9vlWAQ6BGrdw5IRuihtmKApU8N27PwSscvfZSw6/P7WHDyvl0S7YLFn5zyBGL7dkpqGfTfaqAgCnGUobuWVlitVQgu7FVnfjdUk5BOJtS+y3mQNq8OmbYrDempTQgqrEb/lMmkoRxaiIHclXRCNEK+C/17+mtVrgv55iiE4ZWk3TnHX1jWvb9IAZFxF6JCooYGoClDfE0h7/tEGBM0BcNH7iPeJc+a0cp4Vpq1vSNm/+vDxsvYLavvVdMAEBe/WGTcBpL9b4Z5rA9SwezpLagVmNMPo2meAN8dZrUZrAFE6jdjGd/sZuRTX2R4CQlVQuFo3x4RVrw6X+G/t9zPkE4LULmfyWqrW6KaoK8WGMvDQjEp6kfYLygzL7e0Z3v8mLkdjU3aQBDxYpF002uUJPX7R5oOWm5Rwcs+Dty98uxRuC884/yLeehQ/I27tE7tFQKauMwDG222buVwWLgjRwUJ8nrabOb5Vzua6B+ZrASU072bX2Bm2oPgvNCCONN5qc68ohlu79LEU8aLPpCbXUNVO8aYWJNY+Cl+CLD8gDbBxO4YYKiHTUCbdXxSfJ5metQrc1m1/5XlwXzL4d+t4lPZ3VXsehs+kbmFxHZ4a9kp15hL0BbcRpaC5jQCJl9CHoNDBxPZX8=
     #siteKey: ""
     # ENCRYPT reCaptcha secret key using Staticman /encrypt endpoint
     # i.e. https://{STATICMAN API INSTANCE}/v3/encrypt/{your-site-secret}
