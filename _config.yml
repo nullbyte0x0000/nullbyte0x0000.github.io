@@ -128,8 +128,6 @@ footer-link-col: "#404040"
 
 # --- Comments --- #
 
-locale: vi
-
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: ""
 
