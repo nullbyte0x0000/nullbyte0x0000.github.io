@@ -8,7 +8,9 @@ categories: [Design Pattern]
 
 ## Quan hệ Association
 
-![Association](/img/2020_05_15/Association1.png?raw=true){: .center-block :}
+| Kí hiệu |
+| :-----: |
+| ![Association](/img/2020_05_15/Association1.png?raw=true) |
 
 Quan hệ Association (hợp tác) là quan hệ giữa hai lớp có liên quan gì đó với nhau mà việc hủy lớp này không ảnh hưởng tới lớp khác.
 
