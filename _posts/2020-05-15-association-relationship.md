@@ -8,9 +8,7 @@ categories: [Design Pattern]
 
 ## Quan hệ Association
 
-| Kí hiệu  |
-| :------: |
-| ![Association](/img/2020_05_15/Association1.png?raw=true) |
+![Association](/img/2020_05_15/Association1.png?raw=true){: .center-block :}
 
 Quan hệ Association (hợp tác) là quan hệ giữa hai lớp có liên quan gì đó với nhau mà việc hủy lớp này không ảnh hưởng tới lớp khác.
 
@@ -56,7 +54,7 @@ private:
 };
 ```
 
-* **Class A** có biến thành viên là con trỏ **Class B**
+### Trường hợp ClassA có biến thành viên là con trỏ ClassB
 
 ![association](/img/2020_05_15/Association4.png?raw=true){: .center-block :}
 
@@ -94,18 +92,18 @@ public:
 	explicit Person(const string& name);
 
 	Address* homeAddress() const;
-    Address* officeAddress() const;
+	Address* officeAddress() const;
 	void setHomeAddress(Address* address);
 	void setOfficeAddress(Address* address);
 	
 private:
 	string mName;
 	Address* mHomeAddress = nullptr; //Quan hệ association
-    Address* mOfficeAddress = nullptr; //Quan hệ association
+	Address* mOfficeAddress = nullptr; //Quan hệ association
 };
 ```
 
-* **Class A** chứa một tập các đối tượng của **Class B**
+### Trường hợp ClassA chứa một tập các đối tượng của ClassB
 
 ![association](/img/2020_05_15/Association6.png?raw=true){: .center-block :}
 
@@ -124,7 +122,7 @@ class Teacher
 public:
 	explicit Teacher(const string& name);
 	
-    void add(Student* stu);
+	void add(Student* stu);
 	void remove(Student* stu);
 	
 private:
