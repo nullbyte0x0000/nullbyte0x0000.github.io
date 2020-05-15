@@ -44,14 +44,14 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-    //lấy con trỏ người vợ hoặc chồng
-    Person* spouse() const;
-    void setSpouse(Person* p);
+	//lấy con trỏ người vợ hoặc chồng
+	Person* spouse() const;
+	void setSpouse(Person* p);
     
 private:
-    string mName;
-    //Người vợ hoặc chồng
-    Person* mSpouse; //Quan hệ association
+	string mName;
+	//Người vợ hoặc chồng
+	Person* mSpouse; //Quan hệ association
 };
 ```
 
