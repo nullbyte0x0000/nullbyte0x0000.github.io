@@ -42,7 +42,6 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-    
     //lấy con trỏ người vợ hoặc chồng
     Person* spouse() const;
     void setSpouse(Person* p);
@@ -67,7 +66,6 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-
 	Address* address() const;
 	void setAddress(Address* address);
 	
@@ -90,7 +88,6 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-
 	Address* homeAddress() const;
 	Address* officeAddress() const;
 	void setHomeAddress(Address* address);
@@ -121,9 +118,8 @@ class Teacher
 {
 public:
 	explicit Teacher(const string& name);
-	
-	void add(Student* stu);
-	void remove(Student* stu);
+	void add(Student* student);
+	void remove(Student* student);
 	
 private:
 	string mName;
