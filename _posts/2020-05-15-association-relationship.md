@@ -7,8 +7,9 @@ categories: [Design Pattern]
 ---
 
 ## Quan hệ Association
+
 | Kí hiệu  |
-| :-----------------: |
+| :------: |
 | ![Association](/img/2020_05_15/Association1.png?raw=true) |
 
 Quan hệ Association (hợp tác) là quan hệ giữa hai lớp có liên quan gì đó với nhau mà việc hủy lớp này không ảnh hưởng tới lớp khác.
@@ -21,7 +22,7 @@ Ví dụ quan hệ giữa:
 * Vợ - Chồng
 * v.v.
 
-![Association](/img/2020_05_15/Association2.png?raw=true)
+![Association](/img/2020_05_15/Association2.png?raw=true){: .center-block :}
 
 Khi một đối tượng ***hocsinh*** bị hủy sẽ không ảnh hưởng gì tới đối tượng ***giaovien***. Tương tự, nếu một đối tượng ***giaovien*** bị hủy thì cũng không ảnh hưởng gì tới đối tượng ***hocsinh***...
 
@@ -36,7 +37,7 @@ Quan hệ Association được sử dụng khi:
 
 ### Trường hợp ClassA có biến thành viên là con trỏ ClassA
 
-![association](/img/2020_05_15/Association3.png?raw=true)
+![association](/img/2020_05_15/Association3.png?raw=true){: .center-block :}
 
 ```cpp
 class Person
@@ -57,7 +58,7 @@ private:
 
 * **Class A** có biến thành viên là con trỏ **Class B**
 
-![association](/img/2020_05_15/Association4.png?raw=true)
+![association](/img/2020_05_15/Association4.png?raw=true){: .center-block :}
 
 ```cpp
 class Address
@@ -80,7 +81,7 @@ private:
 
 Khi có hai địa chỉ, một địa chỉ nhà, một địa chỉ cơ quan:
 
-![association](/img/2020_05_15/Association5.png?raw=true)
+![association](/img/2020_05_15/Association5.png?raw=true){: .center-block :}
 
 ```cpp
 class Address
@@ -106,7 +107,7 @@ private:
 
 * **Class A** chứa một tập các đối tượng của **Class B**
 
-![association](/img/2020_05_15/Association6.png?raw=true)
+![association](/img/2020_05_15/Association6.png?raw=true){: .center-block :}
 
 ```cpp
 class Student
