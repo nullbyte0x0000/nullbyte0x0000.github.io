@@ -2,11 +2,13 @@
 layout: post
 title: Association - Quan hệ hợp tác
 subtitle: Hủy đối tượng này không ảnh hưởng tới đối tượng khác
-tags: [Design Pattern, C++]
+tags: [Association, UML, C++]
 categories: [Design Pattern]
 ---
 
-## Association
+| Quan hệ Association |
+| :-----------------: |
+| ![Association](/img/2020_05_15/Association.png?raw=true) |
 
 Quan hệ Association (hợp tác) là quan hệ giữa hai lớp có liên quan gì đó với nhau mà việc hủy lớp này không ảnh hưởng tới lớp khác.
 
