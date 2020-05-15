@@ -8,7 +8,7 @@ categories: [Remote Sensing]
 
 Orfeo ToolBox là một dự án nguồn mở dành cho viễn thám tiên tiến, bao gồm trình xem ảnh nhanh, các ứng dụng xử lý ảnh được truy cập thông qua giao diện của sổ dòng lệnh, Python, QGIS hay các API C++ mạnh mẽ. Bài viết này sẽ trình bày giới thiệu Orfeo ToolBox theo quan viễn thám và công nghệ phần mềm.
 
-![Orfeo Toolbox](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh1.png?raw=true){: .center-block :}
+![Orfeo Toolbox](/img/2020_04_27/Hinh1.png?raw=true){: .center-block :}
 
 ## Mở đầu
 
@@ -30,7 +30,7 @@ Với hơn 15 năm phát triển, Orfeo ToolBox đã phát triển từ một b�
 * Phân tích ảnh dựa trên đối tượng.
 * Xuất kết quả cho GIS và xuất bản in.
 
-![Edge Detection](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh2.png?raw=true){: .center-block :}
+![Edge Detection](/img/2020_04_27/Hinh2.png?raw=true){: .center-block :}
 
 ### Kiến trúc phần mềm
 
@@ -40,7 +40,7 @@ Các thuật toán của OTB bao phủ hầu hết các chức năng cần thi�
 
 Kiến trúc phần mềm của OTB được thiết kế để nó không chỉ hoạt động trên máy tính cá nhân mà còn trên cả những máy tính hiệu năng cao, có quy mô xử lý hàng Terabyte. Điều này đạt được nhờ kiến ​​trúc phần mềm mô-đun, còn được gọi minh họa với tên là “chiếc bánh sandwich OTB”.
 
-![Sandwich OTB](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh3.png?raw=true){: .center-block :}
+![Sandwich OTB](/img/2020_04_27/Hinh3.png?raw=true){: .center-block :}
 
 Các API C++ của OTB sẽ đảm nhận thực thi kỹ thuật ống dẫn. Kỹ thuật này sẽ hỗ trợ xử lý đa luồng, truyền phát thông điệp. Do đó tất cả các ứng dụng và bộ lọc có thể xử lý ảnh với tối đa tài nguyên bộ nhớ và CPU đang có.
 
@@ -81,7 +81,7 @@ Orfeo ToolBox cung cấp Monteverdi là một công cụ để kết xuất đ�
 * Các công cụ kết xuất đồ họa cục bộ và toàn cục nhanh (ví dụ: tăng cường độ tương phản, hiệu ứng trong suốt, ánh xạ màu…) nhờ sử dụng sức mạnh của OpenGL như kết cấu dấu phẩy động và GLSL.
 * Hiển thị đa hình ảnh với khả năng tự động đăng kí tham chiếu khi chúng không cùng hệ tọa độ, hay còn được gọi là khả năng “on-the-fly”
 
-![Monteverdi](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh4.png?raw=true){: .center-block :}
+![Monteverdi](/img/2020_04_27/Hinh4.png?raw=true){: .center-block :}
 
 ## Các ứng dụng của OTB
 
@@ -98,7 +98,7 @@ Một đặc điểm quan trọng nữa trong thiết kế các ứng dụng c�
 * QGIS thông qua plugin Processing
 * Zoo-Project thông qua Web Processing Service.
 
-![QGIS Plugin](https://github.com/bachns/bachns.github.io/blob/master/img/2020_04_27/Hinh5.png?raw=true){: .center-block :}
+![QGIS Plugin](/img/2020_04_27/Hinh5.png?raw=true){: .center-block :}
 
 Dưới đây là ví dụ sử dụng Python để gọi ứng dụng làm mịn ảnh sử dụng giải thuật Mean và giải thuật Gaussian:
 
