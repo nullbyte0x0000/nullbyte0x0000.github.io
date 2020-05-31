@@ -35,7 +35,7 @@ Quan hệ Association được sử dụng khi:
 * **ClassA** có biến thành viên là **ClassB**
 * **ClassA** chứa một tập các đối tượng của **ClassB**
 
-### Trường hợp ClassA có biến thành viên là con trỏ ClassA
+### Trường hợp ClassA có biến thành viên là ClassA
 
 ![association](/img/2020_05_15/Association3.png?raw=true){: .center-block :}
 
@@ -44,7 +44,7 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-	//lấy con trỏ người vợ hoặc chồng
+	//lấy người vợ hoặc chồng
 	Person spouse() const;
 	void setSpouse(const Person& p);
     
@@ -55,7 +55,7 @@ private:
 };
 ```
 
-### Trường hợp ClassA có biến thành viên là con trỏ ClassB
+### Trường hợp ClassA có biến thành viên là ClassB
 
 ![association](/img/2020_05_15/Association4.png?raw=true){: .center-block :}
 
