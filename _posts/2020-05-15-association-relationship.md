@@ -31,8 +31,8 @@ Kí hiệu của quan hệ Association là một đường nét liền, có th�
 ***Chú ý:*** Association sử dụng mũi tên gai, đừng nhầm lẫn nó với mũi tên đầu tam giác.
 
 Quan hệ Association được sử dụng khi:
-* **ClassA** có biến thành viên là chính là con trỏ **ClassA**
-* **ClassA** có biến thành viên là con trỏ **ClassB**
+* **ClassA** có biến thành viên là chính là **ClassA**
+* **ClassA** có biến thành viên là **ClassB**
 * **ClassA** chứa một tập các đối tượng của **ClassB**
 
 ### Trường hợp ClassA có biến thành viên là con trỏ ClassA
@@ -45,13 +45,13 @@ class Person
 public:
 	explicit Person(const string& name);
 	//lấy con trỏ người vợ hoặc chồng
-	Person* spouse() const;
-	void setSpouse(Person* p);
+	Person spouse() const;
+	void setSpouse(const Person& p);
     
 private:
 	string mName;
 	//Người vợ hoặc chồng
-	Person* mSpouse; //Quan hệ association
+	Person mSpouse; //Quan hệ association
 };
 ```
 
@@ -68,12 +68,12 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-	Address* address() const;
-	void setAddress(Address* address);
+	Address address() const;
+	void setAddress(const Address& address);
 	
 private:
 	string mName;
-	Address* mAddress = nullptr;
+	Address mAddress;
 };
 ```
 
@@ -90,15 +90,15 @@ class Person
 {
 public:
 	explicit Person(const string& name);
-	Address* homeAddress() const;
-	Address* officeAddress() const;
-	void setHomeAddress(Address* address);
-	void setOfficeAddress(Address* address);
+	Address homeAddress() const;
+	Address officeAddress() const;
+	void setHomeAddress(const Address& address);
+	void setOfficeAddress(const Address& address);
 	
 private:
 	string mName;
-	Address* mHomeAddress = nullptr; //Quan hệ association
-	Address* mOfficeAddress = nullptr; //Quan hệ association
+	Address mHomeAddress; //Quan hệ association
+	Address mOfficeAddress; //Quan hệ association
 };
 ```
 
@@ -120,12 +120,150 @@ class Teacher
 {
 public:
 	explicit Teacher(const string& name);
-	void add(Student* student);
-	void remove(Student* student);
+	void addStudent(const Student& student);
 	
 private:
 	string mName;
-	vector<Student*> mStudents; //Quan hệ association
+	vector<Student> mStudents; //Quan hệ association
 };
 ```
 
+Hoặc chi tiết hơn nữa sẽ như thế này:
+
+![association](/img/2020_05_15/Association7.png?raw=true){: .center-block :}
+
+```cpp
+#include <iostream>
+#include <utility>
+#include <vector>
+#include <string>
+#include <utility>
+
+using namespace std;
+
+class Teacher;
+
+class Student
+{
+public:
+	explicit Student(string name)
+		: mName(std::move(name))
+	{
+	}
+
+	string name() const
+	{
+		return mName;
+	}
+
+	void addTeacher(const Teacher& teacher)
+	{
+		mTeachers.push_back(teacher);
+	}
+
+	friend ostream& operator<< (ostream& out, const Student& student);
+
+private:
+	string mName;
+	vector<Teacher> mTeachers;
+};
+
+class Teacher
+{
+public:
+	explicit Teacher(string name)
+		: mName(std::move(name))
+	{
+	}
+
+	string name() const
+	{
+		return mName;
+	}
+
+	void addStudent(Student& student)
+	{
+		mStudents.push_back(student);
+		student.addTeacher(*this);
+	}
+
+	friend ostream& operator<< (ostream& out, const Teacher& teacher)
+	{
+		out << "Teacher: " << teacher.name() << endl;
+			cout << "  students {" << endl;
+		for (const Student& student : teacher.mStudents)
+			out << "    " << student.name() << endl;
+		out << "  }" << endl;
+		return out;
+	}
+
+private:
+	string mName;
+	vector<Student> mStudents; //Quan hệ association
+};
+
+ostream& operator<<(ostream& out, const Student& student)
+{
+	out << "Student: " << student.name() << endl;
+	cout << "  teachers {" << endl;
+	for (const Teacher& teacher : student.mTeachers)
+		out << "    " << teacher.name() << endl;
+	out << "  }" << endl;
+	return out;
+}
+
+int main(int argc, char* argv[])
+{
+	Student student1("Lan");
+	Student student2("Mai");
+	Student student3("Hoa");
+
+	Teacher teacher1("Hung");
+	teacher1.addStudent(student1);
+	teacher1.addStudent(student2);
+
+	Teacher teacher2("Truong");
+	teacher2.addStudent(student1);
+	teacher2.addStudent(student3);
+
+	cout << teacher1 << endl;
+	cout << teacher2 << endl;
+	cout << student1 << endl;
+	cout << student2 << endl;
+	cout << student3 << endl;
+
+	return 0;
+}
+```
+
+Kết quả chúng ta nhận được như sau:
+
+```console
+Teacher: Hung
+  students {
+     Lan
+     Mai
+  }
+
+Teacher: Truong
+  students {
+     Lan
+     Hoa
+  }
+
+Student: Lan
+  teachers {
+     Hung
+     Truong
+  }
+
+Student: Mai
+  teachers {
+    Hung
+  }
+
+Student: Hoa
+  teachers {
+     Truong
+  }
+```
