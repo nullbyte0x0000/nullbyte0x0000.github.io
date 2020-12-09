@@ -27,6 +27,7 @@ Khi $\theta \le \theta_0$ nào đó thì hai màu được coi là tương tự 
 Một số dữ liệu ảnh sử dụng kỹ thuật bảng ánh xạ màu. Thay vì phải sử dụng 3 kênh ảnh để mỗi pixel đều có 3 thành phần màu $R, G, B$ thì kỹ thuật này chỉ sử dụng một kênh ảnh, mỗi pixel chỉ chứa một giá trị chỉ báo, giá trị này sau khi tra bảng ánh xạ màu sẽ biết được màu tương ứng.
 
 Để biết một ảnh có sử dụng bảng ánh xạ màu hay không, trong Global Mapper từ **Control Center (Alt+C)** ta nhấp đúp chuột vào raster layer để mở hộp thoại **Raster Options**, nếu có xuất hiện tab **Palette** thì ảnh có bảng ánh xạ màu.
+
 | Có bảng ánh xạ màu | Không có bảng ánh xạ màu |
 | :----------------: | :----------------------: |
 | ![Palette](/img/2020_12_06/Hinh1a.png?raw=true "Có bảng ánh xạ màu") | ![BandSetup](/img/2020_12_06/Hinh1b.png?raw=true "Không có bảng ánh xạ màu") |
@@ -48,8 +49,9 @@ Từ thanh menu của phần mềm, ta chọn **Layer/Create Area Features from 
 Tham số ngưỡng mờ màu sắc được đặt trong mục Setup Allowed Color Fuzziness/Maximum Match Distance. Global Mapper cho phép đặt ngưỡng này trong khoảng [0, 256], đây là khoảng giá trị đã được chuẩn hóa. Trường hợp ảnh sử dụng bảng ánh xạ sẽ không có khoảng mờ màu của cùng một loại đối tượng và ngưỡng khoảng cách mờ sẽ là 0. Với trường hợp ảnh không có bảng ánh xạ màu như ảnh hàng không, các đối tượng sẽ không có màu sắc duy nhất, luôn tồn tại một khoảng mờ màu sắc của cùng một loại đối tượng, do đó ta sẽ nhập một ngưỡng mờ khác 0.
 
 Kết quả chiết xuất đường giao thông từ ảnh bản đồ: Chỉ báo màu Pal Idx 3 – RGB(203, 0, 23), ngưỡng mờ màu 0.
+
 | Ảnh bản đồ | Kết quả |
-| :----: | :----: |
+| :--------: | :----: |
 | ![](/img/2020_12_06/Hinh4a.png?raw=true "Ảnh bản đồ") | ![Vector](/img/2020_12_06/Hinh4b.png?raw=true "Kết quả chiết xuất ảnh bản đồ") |
 
 Kết quả chiết xuất vùng hồ nước từ ảnh hàng không: Giá trị màu RGB(71, 116, 96), ngưỡng mờ màu 20.
@@ -80,6 +82,7 @@ Kết quả của quá trình làm mịn cạnh qua từng bước được th�
 | ![](/img/2020_12_06/Bang1c.png?raw=true "Làm trơn cạnh") | ![](/img/2020_12_06/Bang1d.png?raw=true "Kết quả cuối cùng") |
 
 Một kết quả khác tại những nơi có độ cong lớn.
+
 | Ban đầu | Kết quả cuối cùng |
 | :-----: | :---------------: |
 | ![](/img/2020_12_06/Bang2a.png?raw=true "Ban đầu") | ![](/img/2020_12_06/Bang2b.png?raw=true "Kết quả cuối cùng") |
