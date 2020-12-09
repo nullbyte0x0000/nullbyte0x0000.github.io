@@ -26,7 +26,7 @@ Khi <img src="https://render.githubusercontent.com/render/math?math=\theta \le \
 
 Một số dữ liệu ảnh sử dụng kỹ thuật bảng ánh xạ màu. Thay vì phải sử dụng 3 kênh ảnh để mỗi pixel đều có 3 thành phần màu R, G, B thì kỹ thuật này chỉ sử dụng một kênh ảnh, mỗi pixel chỉ chứa một giá trị chỉ báo, giá trị này sau khi tra bảng ánh xạ màu sẽ biết được màu tương ứng.
 
-Để biết một ảnh có sử dụng bảng ánh xạ màu hay không, trong Global Mapper từ **Control Center (Alt+C)** ta nhấp đúp chuột vào raster layer để mở hộp thoại **Raster Options**, nếu có xuất hiện tab **Palette** thì ảnh có bảng ánh xạ màu.
+Để biết một ảnh có sử dụng bảng ánh xạ màu hay không, trong Global Mapper từ Control Center (Alt+C) ta nhấp đúp chuột vào raster layer để mở hộp thoại Raster Options, nếu có xuất hiện tab Palette thì ảnh có bảng ánh xạ màu.
 
 | Có bảng ánh xạ màu | Không có bảng ánh xạ màu |
 | :----------------: | :----------------------: |
@@ -38,9 +38,9 @@ Thông thường các ảnh sản phẩm bản đồ (ảnh bản đồ) là nh�
 
 ![](/img/2020_12_06/Hinh2.png?raw=true "Quá trình chiết xuất")
 
-Từ thanh menu của phần mềm, ta chọn **Layer/Create Area Features from Equal Values**. Hộp thoại **Setup Equal-Value Area Creation** sẽ xuất hiện, đây là hộp thoại cho chúng ta tùy chọn các tham số: màu sắc của đối tượng cần chiết xuất, loại vùng chiết xuất, giới hạn vùng chiết xuất, ngưỡng mờ màu... Lựa chọn **Only Create Areas for Selected Colors** để chỉ chiết xuất đối tượng với màu chỉ định. Nếu ảnh có sử dụng bảng ánh xạ màu, Global Mapper sẽ hiện hộp thoại **Transparent Color** để người sử dụng chọn, đây là những màu mà các đối tượng trên ảnh đang sử dụng. Nếu không, phần mềm sẽ yêu cầu người dùng nhập giá trị màu trong hộp thoại **Color**.
+Từ thanh menu của phần mềm, ta chọn Layer/Create Area Features from Equal Values. Hộp thoại Setup Equal-Value Area Creation sẽ xuất hiện, đây là hộp thoại cho chúng ta tùy chọn các tham số: màu sắc của đối tượng cần chiết xuất, loại vùng chiết xuất, giới hạn vùng chiết xuất, ngưỡng mờ màu... Lựa chọn Only Create Areas for Selected Colors để chỉ chiết xuất đối tượng với màu chỉ định. Nếu ảnh có sử dụng bảng ánh xạ màu, Global Mapper sẽ hiện hộp thoại Transparent Color để người sử dụng chọn, đây là những màu mà các đối tượng trên ảnh đang sử dụng. Nếu không, phần mềm sẽ yêu cầu người dùng nhập giá trị màu trong hộp thoại Color.
 
-Để biết giá trị màu sắc của đối tượng, ta sử dụng công cụ **Feature Info Tool (Alt+P)** hoặc xem trên thanh trạng thái góc dưới bên trái khi đưa con trỏ chuột vào đối tượng.
+Để biết giá trị màu sắc của đối tượng, ta sử dụng công cụ Feature Info Tool (Alt+P) hoặc xem trên thanh trạng thái góc dưới bên trái khi đưa con trỏ chuột vào đối tượng.
 
 | Hộp thoại Setup Equal-Value Area Creation | Hộp thoại Transparent Color |
 | :----------------: | :----------------------: |
@@ -63,7 +63,7 @@ Kết quả chiết xuất vùng hồ nước từ ảnh hàng không: Giá tr�
 ## Làm mịn cạnh
 Cấu trúc dữ liệu raster là cấu trúc gồm các ô có kích thước và khoảng cách đều nhau. Dẫn đến các đối tượng thu được từ quá trình chiết xuất luôn có cạnh (hay đường biên) là những đường vuông gấp khúc và điều này là không thẩm mĩ. Do vậy, chúng ta cần làm mịn các đường gấp khúc này, để vừa thẩm mĩ mà vẫn đảm bảo độ chính xác. Công đoạn làm mịn cạnh được thực hiện thông qua hai giai đoạn: Đơn giản hóa và làm trơn. 
 
-Để thực hiện đơn giản hóa ta chọn **Edit/Select All Features with Digitizer Tool** để chọn tất cả các đối tượng. Sau đó sử dụng công cụ đơn giản hóa bằng cách bật công cụ **Digitizer Tool (Alt + D)**, nhấp chuột phải chọn **Move/Reshape Feature(s)/SIMPLIFY - Simplify (Reduce) Vertices of Selected Line/ Area Feature(s)**. Nhập tham số khoảng cách vào ô **Horizontal** trong hộp thoại **Enter Simplification Threshold**.
+Để thực hiện đơn giản hóa ta chọn Edit/Select All Features with Digitizer Tool để chọn tất cả các đối tượng. Sau đó sử dụng công cụ đơn giản hóa bằng cách bật công cụ Digitizer Tool (Alt + D), nhấp chuột phải chọn Move/Reshape Feature(s)/SIMPLIFY - Simplify (Reduce) Vertices of Selected Line/ Area Feature(s). Nhập tham số khoảng cách vào ô Horizontal trong hộp thoại Enter Simplification Threshold.
 
 | Hộp thoại Enter Simplification Threshold |
 | :--------------------------------------: |
