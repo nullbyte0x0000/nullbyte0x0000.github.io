@@ -18,13 +18,13 @@ Các công cụ vector hóa lần đầu tiên xuất hiện trên Global Mapper
 
 ## Bảng ánh xạ và khoảng mờ màu sắc
 
-Quá trình chiết xuất hoạt động bằng cách chọn các đối tượng có cùng màu sắc hoặc có màu sắc tương tự nhau thỏa mãn một ngưỡng khoảng mờ. Khoảng mờ của hai màu là khoảng cách Euclid của các thành phần màu. Ví dụ, khoảng mờ màu sắc của hai màu $(R_0, G_0, B_0)$ và $(R_1, G_1, B_1)$ là:
+Quá trình chiết xuất hoạt động bằng cách chọn các đối tượng có cùng màu sắc hoặc có màu sắc tương tự nhau thỏa mãn một ngưỡng khoảng mờ. Khoảng mờ của hai màu là khoảng cách Euclid của các thành phần màu. Ví dụ, khoảng mờ màu sắc của hai màu <img src="https://render.githubusercontent.com/render/math?math=(R_0, G_0, B_0)"/> và <img src="https://render.githubusercontent.com/render/math?math=(R_1, G_1, B_1)"/> là:
 
-$\theta = \sqrt{(R_1 - R_0)^2 + (G_1 - G_0)^2 + (B_1 - B_0)^2}$
+<img src="https://render.githubusercontent.com/render/math?math=\theta = \sqrt{(R_1 - R_0)^2 %2b (G_1 - G_0)^2 %2b (B_1 - B_0)^2}"/>
 
-Khi $\theta \le \theta_0$ nào đó thì hai màu được coi là tương tự nhau.
+Khi <img src="https://render.githubusercontent.com/render/math?math=\theta \le \theta_0"/> nào đó thì hai màu được coi là tương tự nhau.
 
-Một số dữ liệu ảnh sử dụng kỹ thuật bảng ánh xạ màu. Thay vì phải sử dụng 3 kênh ảnh để mỗi pixel đều có 3 thành phần màu $R, G, B$ thì kỹ thuật này chỉ sử dụng một kênh ảnh, mỗi pixel chỉ chứa một giá trị chỉ báo, giá trị này sau khi tra bảng ánh xạ màu sẽ biết được màu tương ứng.
+Một số dữ liệu ảnh sử dụng kỹ thuật bảng ánh xạ màu. Thay vì phải sử dụng 3 kênh ảnh để mỗi pixel đều có 3 thành phần màu R, G, B thì kỹ thuật này chỉ sử dụng một kênh ảnh, mỗi pixel chỉ chứa một giá trị chỉ báo, giá trị này sau khi tra bảng ánh xạ màu sẽ biết được màu tương ứng.
 
 Để biết một ảnh có sử dụng bảng ánh xạ màu hay không, trong Global Mapper từ **Control Center (Alt+C)** ta nhấp đúp chuột vào raster layer để mở hộp thoại **Raster Options**, nếu có xuất hiện tab **Palette** thì ảnh có bảng ánh xạ màu.
 
