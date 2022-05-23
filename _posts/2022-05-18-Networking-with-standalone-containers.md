@@ -38,12 +38,7 @@ docker run -it -d --name alpine1 alpine ash
 docker run -it -d --name alpine2 alpine ash
 ```
 
-Trong đó:
-
-    -it để đưa câu lệnh muốn thực thi vào cho container, ở đây chúng ta đã đưa vào câu lệnh: ash (ở cuối), đây là bash của Alpine Linux. 
-    -d để container chạy ở chế độ background, --name alpine1 và --name alpine2 là đặt tên cho container.
-    alpine là tên image chúng ta sử dụng, image này đã được tải từ docker hub ở phần trên.
-    ash là lệnh chúng ta muốn container thực thi.
+Trong đó: *-it* để đưa câu lệnh muốn thực thi vào cho container, ở đây chúng ta đã đưa vào câu lệnh: ash (ở cuối), đây là bash của Alpine Linux. *-d* để container chạy ở chế độ background, *--name alpine1* và *--name alpine2* là đặt tên cho container. *alpine* là tên image chúng ta sử dụng, image này đã được tải từ docker hub ở phần trên. *ash* là lệnh chúng ta muốn container thực thi.
 
 Xem các container đang chạy, chúng ta sẽ nhìn thấy hai container là alpine1 và alpine2.
 
