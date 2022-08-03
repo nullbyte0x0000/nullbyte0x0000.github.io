@@ -55,6 +55,6 @@ Ta sử dụng lệnh sau để kiểm tra kết nối tới github:
 
 ## Địa chỉ truy cập tới repository qua ssh
 
-Thay vì sử dụng địa chỉ `https://github.com/<username>/repository.git` hãy sử dụng địa chỉ mới như dưới đây:
+Thay vì sử dụng địa chỉ `https://github.com/<username>/<repository>.git` hãy sử dụng địa chỉ mới như dưới đây:
 
     git@github.com:<username>/<repository>.git
