@@ -20,9 +20,9 @@ Tôi có sở thích đọc sách và uống cà phê. Không biết tôi có s�
 
 ## Mua tặng tôi một ly cà phê
 
-Nếu các bạn thấy thích, hãy mua tặng tôi một ly cà phê. Sự đóng góp của bạn sẽ giúp tôi có thêm động lực để tiếp tục chia sẻ những kiến thức bổ ích cho bạn và cả cộng đồng.
+Nếu các bạn thấy thích, hãy mua tặng tôi một ly cà phê. Sự đóng góp của bạn sẽ giúp tôi có thêm động lực để tiếp tục chia sẻ những kiến thức bổ ích cho bạn và mọi người.
 
-- **buymeacoffee** là một ứng dụng an toàn, miễn phí để bạn có thể sử dụng thẻ tín dụng hoặc PayPal để ủng hộ. Mỗi “ly cà phê” sẽ giúp ích rất nhiều để duy trì blog. Nhấn vào đây để ủng hộ: [https://www.buymeacoffee.com/bachns](https://www.buymeacoffee.com/bachns)
+- **buymeacoffee** là một ứng dụng an toàn, miễn phí để bạn có thể sử dụng thẻ tín dụng hoặc PayPal để ủng hộ. Mỗi “ly cà phê” sẽ giúp ích rất nhiều để duy trì blog này. Nhấn vào đây để ủng hộ: [https://www.buymeacoffee.com/bachns](https://www.buymeacoffee.com/bachns)
 
   [![](/img/buy-me-a-coffee.png?raw=true "https://www.buymeacoffee.com/bachns")](https://www.buymeacoffee.com/bachns)
 
