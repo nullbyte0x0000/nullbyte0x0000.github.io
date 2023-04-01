@@ -26,9 +26,14 @@ Nếu các bạn thấy thích, hãy mua tặng tôi một ly cà phê. Sự đ�
 
   [![](/img/buy-me-a-coffee.png?raw=true "https://www.buymeacoffee.com/bachns")](https://www.buymeacoffee.com/bachns)
 
-- Hoặc bạn có thể chuyển khoản
+- Hoặc bạn có thể tùy tâm chuyển khoản
 
   |    TP Bank     |     MB Bank     |      Momo      |
   | :------------: | :-------------: | :------------: |
   | Nguyễn Sỹ Bách | Nguyễn Sỹ Bách  | Nguyễn Sỹ Bách |
   | 777.33033.777  | 8800.123456.777 |  0967.483.686  |
+
+## Thông tin liên hệ
+
+- Email: bachns@outlook.com
+- Facebook: [https://www.facebook.com/nullbyte0x0000](https://www.facebook.com/nullbyte0x0000)
