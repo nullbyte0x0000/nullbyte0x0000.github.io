@@ -8,9 +8,7 @@ Xin chào, tôi là Nguyễn Sỹ Bách, tác giả của blog này. Rất vui v
 
 ## Về blog này
 
-Blog này tôi viết để lưu lại và chia sẻ kiến thức mà tôi gom nhặt được trên hành trình của mình. Nó gồm những thứ liên quan đến công nghệ, mật mã, lập trình, triển khai hệ thống... và đôi khi là nhiều thứ linh tinh khác. Việc bố cục nội dung và thời gian xuất bản của các bài viết cũng hoàn toàn ngẫu hứng. Mọi thứ chỉ đơn giản là ngồi cà phê, đọc tài liệu thấy chill chill cái gì đó thì viết ra để lưu lại cho bản bản thân và cũng là để chia sẻ cho mọi người.
-
-Nguồn tri thức cơ bản tôi lấy từ các trang mạng và ebook tiếng anh, đọc hiểu và dịch lại để chia sẻ. Có thể, một số thuật ngữ dịch chưa sát, rất mong nhận được sự góp ý của bạn đọc để các bài viết được hoàn thiện hơn.
+Blog này tôi viết để lưu lại và chia sẻ kiến thức mà tôi gom nhặt được trên hành trình của mình. Nó gồm những thứ liên quan đến công nghệ, mật mã, lập trình, triển khai hệ thống... và đôi khi là nhiều thứ linh tinh khác. Nguồn tri thức cơ bản tôi lấy từ các trang mạng và ebook tiếng anh, đọc hiểu, viết và dịch lại để chia sẻ. Có thể, một số thuật ngữ dịch chưa sát, rất mong nhận được sự góp ý của bạn đọc để các bài viết được hoàn thiện hơn.
 
 ## Về bản thân tôi
 
