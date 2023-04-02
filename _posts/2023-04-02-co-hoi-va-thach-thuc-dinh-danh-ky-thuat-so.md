@@ -30,13 +30,13 @@ Khi nhiều cá nhân có thể chứng minh danh tính của mình, khả năng
 
 Vì những lý do này, các tổ chức như Cơ quan Phát triển Quốc tế Hoa Kỳ (USAID - United States Agency for International Development) đã lập luận rằng khả năng chứng minh kỹ thuật số danh tính pháp lý của một người là rất quan trọng cho sự phát triển và hội nhập (USAID 2017). Hệ thống định danh kỹ thuật số tăng cường đáng kể năng lực mở rộng các dịch vụ công cho những công dân nghèo nhất của một quốc gia. Hay như Viện nghiên cứu chính sách Brookings của Hoa Kỳ nhấn mạnh rằng Danh tính kỹ thuật số toàn cầu là yếu tố thúc đẩy chính chuyển tiền mặt toàn cầu để cứu trợ kinh tế và hỗ trợ xã hội. Theo ý kiến ​​của họ, “tình trạng nghèo cùng cực có thể được xóa bỏ với chi phí toàn cầu khoảng 100 tỷ đô la” thông qua việc chuyển tiền mặt như vậy, nhưng chỉ khi hệ thống định danh kỹ thuật số phù hợp được triển khai (Bayuo và Tholstrup, 2021).
 
-> **_Chuyển tiền mặt ở Pakistan trong đại dịch COVID-19_**
+> **Chuyển tiền mặt ở Pakistan trong đại dịch COVID-19**
 
 > Đại dịch COVID-19 đã nêu bật sự cấp thiết về Hệ thống định danh kỹ thuật số. Ở châu Phi cận Sahara và Nam Á, nhiều gia đình phải đối mặt với tình trạng nghèo cùng cực. Các chuyên gia phát triển nhấn mạnh rằng ngay cả việc trải qua nghèo đói trong một thời gian ngắn cũng có thể có tác động lâu dài (Kharas 2020). Trong bối cảnh này, việc triển khai chuyển tiền mặt nhanh chóng đến các hộ gia đình nghèo khó là cách vô cùng hiệu quả để cứu trợ. Cuối cùng, các quốc gia có hệ thống định danh kỹ thuật số đã ở vị thế tốt hơn nhiều. Lợi thế từ công nghệ này cho phép mọi người nhanh chóng chứng minh họ là ai khi đăng ký các chương trình phúc lợi, và các chính phủ cũng nhanh chóng kiểm tra tính đủ điều kiện bằng cách sử dụng các cơ sở dữ liệu khác nhau.
 
 > Tại Pakistan, chính phủ đã giới thiệu chương trình “Tiền mặt khẩn cấp Ehsaas” vào tháng 4 năm 2020, với mục tiêu cung cấp cho 12 triệu gia đình với mỗi gia đình khoảng 75 USD. Các gia đình có thể kiểm tra thông qua tin nhắn SMS xem họ có đủ điều kiện hay không, điều này sẽ không thể thực hiện được nếu không có hệ thống định danh kỹ thuật số quốc gia. Các dữ liệu đã được liên kết thông qua hệ thống như tài sản, lịch sử du lịch và thống kê kinh tế xã hội… sẽ được sử dụng để xác định tính đủ điều kiện của một cá nhân hoặc hộ gia đình. Theo số liệu của chính phủ, chương trình đã tiếp cận với hơn 15 triệu hộ gia đình và là một phần không thể thiếu trong nỗ lực nhằm giải quyết tình trạng nghèo đói trên khắp đất nước.
 
-##### Giải quyết các thách thức triển khai
+## Giải quyết các thách thức triển khai
 
 Khi danh sách các quốc gia và chính phủ thừa nhận những lợi ích của danh tính kỹ thuật số ngày một tăng, họ đã thực hiện các bước để xây dựng hoặc cải tiến hệ thống định danh kỹ thuật số của mình. Từ ý kiến ​​của các chuyên gia và những nghiên cứu điển hình, các phần sau sẽ giúp giải quyết một cách chiến lược các thách thức triển khai liên quan đến hệ thống định danh kỹ thuật số.
 
@@ -104,7 +104,7 @@ Những lo ngại này làm suy yếu lòng tin của công chúng đối với 
 
 > Mặc dù đặt ra những hạn chế trên hệ thống, Tòa án tối cao vẫn giữ nguyên hiệu lực của Aadhaar vào năm 2018 và khẳng định rằng hệ thống này có thể tiếp tục được nhà nước sử dụng, nhưng hạn chế việc sử dụng xác thực sinh trắc học ở các công ty tư nhân. Tòa án đã công nhận rằng "Đạo luật Aadhaar là một đạo luật có lợi nhằm trao quyền cho hàng triệu người." Tuy nhiên, phán quyết cũng tuyên bố rằng “bảo vệ dữ liệu và an toàn dữ liệu” phải được “đảm bảo để tránh ngay cả khả năng làm giả dữ liệu hoặc rò rỉ dữ liệu”. Theo các chuyên gia trong ngành tham gia phát triển Aadhaar, việc hạn chế sử dụng xác thực sinh trắc học ở các công ty tư nhân đã làm giảm tiềm năng đầy đủ của hệ thống Aadhaar.
 
-# Thách thức triển khai 2: Bảo mật và lạm dụng
+# Thách thức 2: Bảo mật và sự lạm dụng
 
 Thiết kế kém của hệ thống ID kỹ thuật số có thể khiến dữ liệu cá nhân gặp rủi ro và tạo điều kiện cho sự phát triển của các cuộc tấn công mạng. Một khung nền tảng (framework) hiệu quả cho một hệ thống ID kỹ thuật số phải được hỗ trợ đồng thời bởi cả kiến ​​trúc kỹ thuật và khung bảo mật mạnh mẽ để bảo vệ dữ liệu, vì các cơ sở dữ liệu chứa một lượng lớn thông tin cá nhân, bao gồm cả sinh trắc học, là mục tiêu hấp dẫn đối với tội phạm. Một thách thức bổ sung nằm ở việc giao tiếp an toàn dữ liệu trong quá trình xác thực, đặc biệt là khi các hệ thống như vậy được sử dụng cho các giao dịch tài chính.
 
@@ -112,7 +112,7 @@ Thiết kế kém của hệ thống ID kỹ thuật số có thể khiến dữ
 
 Các lỗi thiết kế tương tự cũng có thể mở ra các lỗ hổng có thể bị lợi dụng để gian lận và sử dụng sai mục đích. Ví dụ: myGovID của Úc, một ứng dụng ra mắt vào năm 2019 nhằm cho phép người dùng thiết lập danh tính của họ với các dịch vụ của Chính phủ Úc. Các phản ánh ban đầu của khách hàng nhanh chóng thu hút sự chú ý do các biện pháp bảo mật kém, chẳng hạn một người có ý định gian lận dễ dàng có thể đăng ký tài khoản bằng cách sử dụng thông tin sẵn có và phổ biến. Mặc dù hệ thống đã được tăng cường, các nhà nghiên cứu bảo mật đã chỉ ra những sai sót trong quá trình đăng nhập đã cho phép truy cập bất hợp pháp vào các tài khoản cá nhân (Saarinen, 2020). Việc đại tu các dịch vụ kỹ thuật số của hệ sinh thái MyGov sau đó đã tiêu tốn 200 triệu USD, và để danh tính kỹ thuật số có thể mở rộng phù hợp với hồ sơ sức khỏe kỹ thuật số, khoản đầu tư thêm khoảng 300 triệu USD cũng sẽ được đầu tư (Crowe, 2021).
 
-# Thách thức thực hiện 3: Hòa nhập
+# Thách thức 3: Sự hòa nhập
 
 Như đã lập luận trước đây, hệ thống ID kỹ thuật số có thể cho phép truy cập dễ dàng hơn vào tất cả các dịch vụ yêu cầu bằng chứng nhận dạng và thúc đẩy sự hòa nhập. Tuy nhiên, những người không có khả năng tiếp cận công nghệ, đặc biệt là Internet, hoặc không có khả năng vật lý hoặc kỹ năng sử dụng, có thể bị bỏ lại bên ngoài hệ thống.
 
