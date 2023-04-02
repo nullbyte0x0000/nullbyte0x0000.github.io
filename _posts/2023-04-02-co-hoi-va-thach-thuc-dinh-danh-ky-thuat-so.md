@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cơ hội và thách thức của định danh kỹ thuật số
+title: Cơ hội và thách thức của định danh kỹ thuật số (Digital ID - Part 2)
 subtitle: Định danh kỹ thuật số liệu có hoàn toàn là "màu hồng"?
 tags: [digital identity, covid-19]
 categories: [Identity]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tình hình định danh kỹ thuật số
+title: Tình hình định danh kỹ thuật số (Digital ID - Part 1)
 subtitle: Ai là ai trên không gian mạng
 tags: [digital identity, covid-19]
 categories: [Identity]
