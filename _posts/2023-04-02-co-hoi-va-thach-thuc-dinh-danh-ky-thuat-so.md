@@ -127,3 +127,5 @@ Hệ thống ID kỹ thuật số cũng có thể loại trừ những người 
 > Hệ thống ID kỹ thuật số của Uganda đã phải đối mặt với những thách thức ngay trong giai đoạn đăng ký sinh trắc học ban đầu. Người khuyết tật đã bị “quay lưng” bởi các trung tâm đăng ký, vì không có bất kỳ lựa chọn thay thế nào ngoài dấu vân tay. Mức độ nghiêm trọng của vấn đề đã tiếp tục tăng lên khi rất nhiều người không thể tiếp cận do khoảng cách xa giữa các trung tâm đăng ký và nơi có nhiều người sinh sống, cũng như thiếu các mẫu đơn đăng ký bằng ngôn ngữ địa phương (Iyer, 2021).
 
 > Một hệ thống không hòa nhập dẫn đến loại trừ trực tiếp khi cung cấp dịch vụ cho các nhóm vốn đã bị gạt ra ngoài lề của xã hội. Ban đầu, Bộ Y tế Uganda tuyên bố rằng việc tiêm chủng COVID-19 sẽ phải có danh tính đã đăng ký, yêu cầu này sau đó đã bị rút lại. Một ví dụ khác là những người lớn tuổi, những người đã bị loại khỏi các khoản thanh toán phúc lợi do không biết ngày sinh của mình hoặc không thể chứng minh khi đăng ký ID kỹ thuật số.
+
+_Hết phần 2_
