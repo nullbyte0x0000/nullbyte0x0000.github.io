@@ -18,7 +18,7 @@ Không có gì ngạc nhiên khi Quyền Định danh được nêu trong Chươ
 
 Mặc dù các SDG đã thúc đẩy sự tham gia của nhiều bên liên quan kể từ khi được phê duyệt vào năm 2015, chúng ta vẫn còn lâu mới đạt được định danh pháp lý cho tất cả. Thật vậy, hơn một nửa dân số thế giới thiếu khả năng chứng minh danh tính của họ trực tuyến. Chỉ số duy nhất được SDG-16.9 nhắc đến là tỷ lệ trẻ em dưới 5 tuổi được đăng ký khai sinh. Đương nhiên, số liệu này không nói lên được gì nhiều thực trạng hiện nay. Sáng kiến ​​Định danh để Phát triển (ID4D) của Ngân hàng Thế giới cố gắng đi xa hơn và ước tính tổng số cá nhân không có danh tính hợp pháp. Kết quả là khá tốt. Theo ước tính gần đây nhất của ID4D, vào năm 2018, một tỷ người trên toàn cầu không có bằng chứng định danh chính thức.
 
-|            Bản đồ số người không có giấy khai sinh theo các quốc gia             |
+|          Bản đồ số người không đăng kí giấy khai sinh theo các quốc gia          |
 | :------------------------------------------------------------------------------: |
 | ![Unregistered population](/img/2023_04_01/unregistered-population.png?raw=true) |
 
