@@ -14,7 +14,7 @@ Việc này được lặp lại tương tự khi Alice truy cập vào ứng d�
 
 Alice cũng không thể sử dụng một tài khoản và mật khẩu giống nhau cho tất cả ứng dụng, điều này chẳng mấy an toàn. Vì khi bị lộ mật khẩu, có thể do Alice hoặc do một ứng dụng nào đó thì sẽ ảnh hưởng đến tất cả các ứng dụng khác. Kẻ xấu có thể sử dụng mật khẩu bị đánh cắp để truy cập vào nhiều ứng dụng khác nhau.
 
-![](/img/2023_07_01/authentication-problem.png?raw=true)
+![](/img/2023_07_01/authentication-problem.png?raw=true){: .center-block :}
 
 Điều tồi tệ tiếp theo là thông tin danh tính, hồ sơ của Alice sẽ nằm rải rác ở tất cả các ứng dụng. Không có gì bảo đảm rằng các ứng dụng sẽ bảo vệ thông tin của Alice. Sự lộ lọt thông tin cá nhân rất dễ xảy ra, Alice càng sử dụng nhiều ứng dụng thì càng gia tăng nguy cơ bị xâm phạm dữ liệu cá nhân.
 
