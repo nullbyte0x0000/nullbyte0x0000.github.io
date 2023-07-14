@@ -4,7 +4,7 @@ title: About me
 subtitle: Bạn đang tò mò về tôi?
 ---
 
-Xin chào, tôi là Nguyễn Sỹ Bách, tác giả của blog này. Rất vui vì bạn đã quan tâm đến hành trình tìm hiểu kiến thức của tôi.
+Xin chào, tôi là Bách Nguyễn, tác giả của blog này. Rất vui vì bạn đã quan tâm đến hành trình tìm hiểu kiến thức của tôi.
 
 ## Về blog này
 
@@ -26,10 +26,9 @@ Nếu các bạn thấy thích, hãy mua tặng tôi một ly cà phê. Sự đ�
 
 - Hoặc bạn có thể tùy tâm chuyển khoản
 
-  |    TP Bank     |     MB Bank     |      Momo      |
-  | :------------: | :-------------: | :------------: |
-  | Nguyễn Sỹ Bách | Nguyễn Sỹ Bách  | Nguyễn Sỹ Bách |
-  | 777.33033.777  | 8800.123456.777 |  0967.483.686  |
+  |    TP Bank     |     MB Bank     |
+  | :------------: | :-------------: |
+  | 777.33033.777  | 8800.123456.777 |
 
 ## Thông tin liên hệ
 
