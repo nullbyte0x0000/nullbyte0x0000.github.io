@@ -24,12 +24,6 @@ Nếu các bạn thấy thích, hãy mua tặng tôi một ly cà phê. Sự đ�
 
   [![](/img/buy-me-a-coffee.png?raw=true "https://www.buymeacoffee.com/bachns")](https://www.buymeacoffee.com/bachns)
 
-- Hoặc bạn có thể tùy tâm chuyển khoản
-
-  |    TP Bank     |     MB Bank     |
-  | :------------: | :-------------: |
-  | 777.33033.777  | 8800.123456.777 |
-
 ## Thông tin liên hệ
 
 - Email: bachns@outlook.com
