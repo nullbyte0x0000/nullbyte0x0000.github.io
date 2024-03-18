@@ -152,9 +152,10 @@ staticman:
 utterances:
   repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
   issue-term: title # Mapping between blog posts and GitHub issues
-  theme: github-light # Utterances theme
+  # theme: github-light # Utterances theme
   label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
-
+  
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # --- Misc --- #
 
 # Character used to separate site title and description in HTML document title
@@ -261,5 +262,6 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-include-cache
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
